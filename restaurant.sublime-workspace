@@ -1,0 +1,1231 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"req",
+				"req1	require_once …"
+			],
+			[
+				"com",
+				"comm-section	Comment - Full section comment"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"bclor",
+				"background-color"
+			],
+			[
+				"base",
+				"base64_decode"
+			],
+			[
+				"bs3pane",
+				"bs3-panel:footer	bs3-panel-footer"
+			],
+			[
+				"bs3form",
+				"bs3-form:inline	bs3-form-inline"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"this",
+				"this	$(this)"
+			],
+			[
+				"appe",
+				"appendTo	.appendTo()"
+			],
+			[
+				"arr",
+				"arr"
+			],
+			[
+				"column",
+				"columns"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"tri",
+				"trigger	.trigger()"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"mysqnum",
+				"mysql_num_rows"
+			],
+			[
+				"sub",
+				"sub_total"
+			],
+			[
+				"col",
+				"colspan	Attr"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bs3tab",
+				"bs3-table:striped	bs3-table-striped"
+			],
+			[
+				"m",
+				"mt	margin-top"
+			],
+			[
+				"fl",
+				"fl-r	float: right;"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fad",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"st",
+				"style	Attr"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"backc",
+				"background-color"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bacc",
+				"background-color"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"img",
+				"img_path"
+			],
+			[
+				"bs3pag",
+				"bs3-page-header	bs3-page header"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"in",
+				"incl1	include_once …"
+			],
+			[
+				"aja",
+				"ajax	Google AJAX Libraries: jQuery"
+			],
+			[
+				"incl",
+				"incl	include …"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"tes",
+				"text-transform"
+			],
+			[
+				"new",
+				"new_selection"
+			],
+			[
+				"valu",
+				"value"
+			],
+			[
+				"key",
+				"key_array"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"out",
+				"outerHeight	.outerHeight()"
+			],
+			[
+				"head",
+				"header	<header>"
+			],
+			[
+				"hea",
+				"headerHeight"
+			],
+			[
+				"he",
+				"height	.height()"
+			],
+			[
+				"bscdn",
+				"bs3-cdn	bs3-cdn"
+			],
+			[
+				"bscd",
+				"bs3-cdn:css	bs3-cdn-css"
+			],
+			[
+				"tb",
+				"table-cell"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"tabl",
+				"table"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bcol",
+				"background-color"
+			],
+			[
+				"bs3pan",
+				"bs3-panel:table	bs3-panel-table"
+			],
+			[
+				"bs3table",
+				"bs3-table:responsive	bs3-table-responsive"
+			],
+			[
+				"mou",
+				"mouseout	.mouseout()"
+			],
+			[
+				"home",
+				"home_categories"
+			],
+			[
+				"ma",
+				"m-a	margin: auto;"
+			],
+			[
+				"borr",
+				"border-right"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"store_product",
+				"store_product_description"
+			],
+			[
+				"related",
+				"related_products"
+			],
+			[
+				"mysfet",
+				"mysql_fetch_object"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"myfe",
+				"mysql_fetch_assoc"
+			],
+			[
+				"inve",
+				"Inventory"
+			],
+			[
+				"__",
+				"__construct"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"ti",
+				"title	Attr"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"borderr",
+				"border-radius"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"ul",
+				"url()"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"scr",
+				"src	Attr"
+			],
+			[
+				"sli",
+				"slideDown	.slideDown()"
+			],
+			[
+				"special",
+				"special"
+			],
+			[
+				"na",
+				"name	Attr"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"latest",
+				"latests"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"siz",
+				"font-size"
+			],
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"mysql_n",
+				"mysql_num_rows"
+			],
+			[
+				"proe",
+				"property_meta"
+			],
+			[
+				"property",
+				"property_meta"
+			],
+			[
+				"ur",
+				"urlencode"
+			],
+			[
+				"page",
+				"pagename"
+			],
+			[
+				"ready",
+				"ready	$(document).ready"
+			],
+			[
+				"tra",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border-",
+				"border-box"
+			],
+			[
+				"fons",
+				"font-size"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"borra",
+				"border-radius"
+			],
+			[
+				"paddi",
+				"padding"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "includes/footer.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 39,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/header.php",
+			"settings":
+			{
+				"buffer_size": 40,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "common/init.php",
+			"settings":
+			{
+				"buffer_size": 498,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LESS-build/LESS.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"live",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"snibsta",
+				"Snippet: bs3-table"
+			],
+			[
+				"bs3",
+				"Snippet: bs3-table"
+			],
+			[
+				"snibscdn",
+				"Snippet: bs3-cdn"
+			],
+			[
+				"Snippet: vide",
+				"Snippet: <video>"
+			],
+			[
+				"Snippet: ",
+				"Snippet: bs3-alert"
+			],
+			[
+				"rel",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"relo",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"livere",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"enali",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"liv",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"li",
+				"LiveReload: Self test"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"livereload",
+				"LiveReload: Self test"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Build: Minify"
+			],
+			[
+				"ista",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"INS",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/common/init.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/header.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/config.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/common/init.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/includes/header.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/add_offer.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/header.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/old.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/index.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/classes/index.html",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/index.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/.htaccess",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/config.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/common/defaults.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/common/default_vars.php",
+		"/Users/TheHanif/Downloads/class.database.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/contents/themes/kasabi-theme/footer.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/sftp-config.json",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/themes/kasabi-theme/images/services.png",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/contents/themes/kasabi-theme/images/services.png",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/contents/themes/kasabi-theme/css/style.css",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/js/events.js",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/js/modal.js",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/js/checkout.js",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/terminal.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Cinema/HTML/css/style.css",
+		"/Volumes/Macintosh HD 2/Imagiation/Cinema/HTML/index.html",
+		"/Volumes/Macintosh HD 2/Imagiation/Cinema/HTML/now-showing.html",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/themes/kasabi-theme/footer.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/contents/themes/kasabi-theme/header.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/contents/plugins/cycle-slider/plugin.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/index.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/contents/plugins/theme-settings/plugin.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/contents/themes/kasabi-theme/functions.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/contents/themes/kasabi-theme/packages.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/themes/kasabi-theme/functions.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/index.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/contents/themes/kasabi-theme/contact.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/terminal_ajex.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/css/terminal.css",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/classes/class.terminal.php",
+		"/Users/TheHanif/Downloads/posts.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Irfan Mirza/Pepsi Kuwait/UB Website PHP/index.php",
+		"/Volumes/Macintosh HD 2/Imagiation/img_new/img-cms/include/functions.php",
+		"/Volumes/Macintosh HD 2/Imagiation/img_new/img-cms/admin/page_submit.php",
+		"/Users/TheHanif/Downloads/single.php",
+		"/Volumes/Macintosh HD 2/Backups/Resouces/Plugins/jQuery/Keyboard-master/index.html",
+		"/Volumes/Macintosh HD 2/Backups/Resouces/Plugins/jQuery/Keyboard-master/docs/js/demo.js",
+		"/Users/TheHanif/Desktop/Full Form.jpg",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/sftp-config.json",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/js/calculator.js",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/js/manage_list.js",
+		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/contents/themes/fashion-theme/css/style.css",
+		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/contents/themes/fashion-theme/home.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/contents/themes/fashion-theme/footer.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/contents/themes/fashion-theme/header.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/contents/themes/fashion-theme/css/custommediaqueries.css",
+		"/Volumes/Macintosh HD 2/Hanif/SERVER BACKUP/Server 4 july 2013/infinitree/backup-247jobsonline.net-7-3-2013/public_html/includes/header.php",
+		"/Volumes/Macintosh HD 2/Hanif/SERVER BACKUP/Server 4 july 2013/infinitree/backup-247jobsonline.net-7-3-2013/public_html/portfolio.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/flash/index.html",
+		"/Volumes/Macintosh HD 2/Hanif/SERVER BACKUP/Server 4 july 2013/infinitree/backup-247jobsonline.net-7-3-2013/public_html/limb_up.php",
+		"/Volumes/Macintosh HD 2/Hanif/SERVER BACKUP/Server 4 july 2013/infinitree/backup-247jobsonline.net-7-3-2013/public_html/refer.php",
+		"/Volumes/Macintosh HD 2/Hanif/SERVER BACKUP/Server 4 july 2013/infinitree/backup-247jobsonline.net-7-3-2013/public_html/search.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/login.php",
+		"/Volumes/Macintosh HD 2/Hanif/SERVER BACKUP/Server 4 july 2013/infinitree/infinity_tree.sql",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/themes/kasabi-theme/css/style.css",
+		"/Volumes/Macintosh HD 2/Hanif/SERVER BACKUP/Server 4 july 2013/infinitree/backup-247jobsonline.net-7-3-2013/public_html/index.php",
+		"/Volumes/Macintosh HD 2/Hanif/SERVER BACKUP/Server 4 july 2013/infinitree/backup-247jobsonline.net-7-3-2013/public_html/convert.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/themes/kasabi-theme/header.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/common/class.database.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/classes/class.inventory.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/include/functions.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/contents/themes/fashion-theme/catelog.php",
+		"/Users/TheHanif/Downloads/optimized_contents/css/cycle.css",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/plugins/theme-settings/plugin.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/terminal-f.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/contents/themes/kasabi-theme/images/fl-en.png",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/themes/kasabi-theme/css/custommediaqueries.css",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/contents/themes/kasabi-theme/css/custommediaqueries.css",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/admin/include/header.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/admin/include/header.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/contents/plugins/theme-settings/admin/general.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/include/functions.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/ar/admin/page_submit.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Mabbi/mabbi-app/contents/themes/mabbi-theme/include/properties.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/plugins/theme-settings/admin/general.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/inventory.php",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/ajex.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Terminal/js/events.js",
+		"/Volumes/Macintosh HD 2/Imagiation/Terminal/js/modal.js",
+		"/Volumes/Macintosh HD 2/Imagiation/Terminal/css/terminal.css",
+		"/Volumes/Macintosh HD 2/Imagiation/Terminal/terminal.html",
+		"/Users/TheHanif/Downloads/Live_PHP_Ajax_Search/scripts/custom.js",
+		"/Volumes/Macintosh HD 2/Imagiation/pos-new/sale_person_detail.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/assets/js/ajax.js",
+		"/Volumes/Macintosh HD 2/Imagiation/Terminal/js/calculator.js",
+		"/Volumes/Macintosh HD 2/Imagiation/Terminal/css/custommediaqueries.css",
+		"/Volumes/Macintosh HD 2/Imagiation/Terminal/css/style.css",
+		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/contents/plugins/theme-settings/admin/general.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/contents/themes/fashion-theme/single.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/contents/themes/fashion-theme/posts.php",
+		"/Volumes/Macintosh HD 2/Imagiation/POS-10/config.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/themes/kasabi-theme/educational-package.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/themes/kasabi-theme/travel-service.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/HTML/sftp-config.json",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/themes/kasabi-theme/about.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/themes/kasabi-theme/default.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/themes/kasabi-theme/css/magnific-popup.css",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/plugins/page_banner/plugin.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/contents/plugins/theme-settings/admin/change.php",
+		"/Volumes/Macintosh HD 2/Hanif/Clients/Saulat/Al Kasabi Tours/kasabi-cms/db.sql",
+		"/Volumes/Macintosh HD 2/Imagiation/Cinema/HTML/corporate.html",
+		"/Volumes/Macintosh HD 2/Imagiation/Cinema/HTML/about-us.html",
+		"/Volumes/Macintosh HD 2/Imagiation/Cinema/HTML/trailer.html",
+		"/Volumes/Macintosh HD 2/Imagiation/Cinema/HTML/Archive.zip",
+		"/Volumes/Macintosh HD 2/Imagiation/Affinity/affinity-cms/include/functions.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Affinity/affinity-cms/admin/order.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Affinity/affinity-cms/admin/orders.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Affinity/affinity-cms/admin/index.php",
+		"/Volumes/Macintosh HD 2/Backups/Resouces/Plugins/jQuery/Chart.js-master/samples/pie-customTooltips.html",
+		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/contents/themes/fashion-theme/404.php",
+		"/Volumes/Macintosh HD 2/Imagiation/img_new/img-cms/contents/themes/imagiacian_theme/single.php",
+		"/Volumes/Macintosh HD 2/Imagiation/img_new/img-cms/admin/index.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/admin/index.php",
+		"/Volumes/Macintosh HD 2/Imagiation/img_new/img-cms/contents/themes/imagiacian_theme/css/design.css",
+		"/Volumes/Macintosh HD 2/Imagiation/img_new/img-cms/contents/themes/imagiacian_theme/css/style.css",
+		"/Volumes/Macintosh HD 2/Imagiation/img_new/img-cms/contents/themes/imagiacian_theme/functions.php",
+		"/Volumes/Macintosh HD 2/new-app/include/class.database.php"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nav",
+			"button",
+			"span",
+			"form",
+			"h1",
+			"footer",
+			"scro",
+			"msg",
+			"customer_login",
+			"cate",
+			"lockable",
+			"3D6E00",
+			"console",
+			"items",
+			"load_terminal_items",
+			"edit",
+			"/*==============================",
+			"clients",
+			"assets",
+			"Daily deals",
+			"m_pid",
+			"pl_mpid",
+			"col-ma",
+			"map",
+			"000",
+			"thumbnail",
+			"all",
+			"$item_list",
+			"('tr.sale');",
+			"$item_list = $('#item-list').find('tr.sale');",
+			"tr.sale",
+			"$item_list = $('#item-list').find('tr.sale');",
+			"tr.sale",
+			"thumbnail",
+			"col-sm-5",
+			"img-responsive",
+			"nav",
+			"1",
+			"h2",
+			"thumbnail",
+			"row",
+			"col-sm-4",
+			"terminal_list",
+			"get_product",
+			"$item_list_container",
+			"item_list",
+			"ajax",
+			"i",
+			"get_list",
+			"$('#item-list').find('table').find('tbody').find('tr')",
+			"data",
+			"+data",
+			"sale",
+			"20%",
+			"10",
+			"imagi",
+			"$theme_settings->",
+			"$(this)",
+			"inv_quantity",
+			"<td",
+			"$barcode",
+			"barcode",
+			"event",
+			"$next_array",
+			"$this->_where[$c+1][2]",
+			"$array",
+			"$v[2]",
+			"$this->_where",
+			"where(",
+			"br",
+			"get_product",
+			"suggest-user",
+			"user",
+			"jQuery",
+			"data-keycode",
+			"<button",
+			"F1",
+			"btn-primary",
+			"product_addtocart",
+			"re_select_items",
+			"tax_total",
+			"sub_total",
+			"3%",
+			"price",
+			"'price'",
+			"sub_total",
+			"item-list",
+			"<th",
+			"th",
+			"<th>",
+			"100px",
+			"50%",
+			"     />",
+			"package",
+			"Package",
+			"package",
+			"Package",
+			"package",
+			"href=\"#\"",
+			"map-zoom",
+			"<?php echo SITEURL.'contents'.$settings",
+			"footer",
+			"location_text3",
+			"location_text",
+			"location_heading",
+			"location_image",
+			"location_text",
+			"location_heading",
+			"location_image",
+			"location_text",
+			"location_heading",
+			"location_image",
+			"about-us",
+			"<a href=\"#\" class=\"trailer\">Watch Tailer</a>",
+			"catalog_banner",
+			"$content->",
+			"cate",
+			"col-md-12",
+			"col-md",
+			"md-",
+			"md",
+			"post_excerpt",
+			"term_or",
+			"header_logo",
+			"jpg",
+			"';\n",
+			"1",
+			"mission"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "includes/footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "includes/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "common/init.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 334.0
+	},
+	"project": "restaurant.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"proce",
+				"common/procedural_functions.php"
+			],
+			[
+				"function",
+				"admin/include/procedural_functions.php"
+			],
+			[
+				"ima",
+				"admin/js/tinymce/plugins/moxiemanager/classes/Media/ImageAlter.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
