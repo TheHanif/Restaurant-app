@@ -19,11 +19,18 @@ spl_autoload_register('admin_autoloader');
 
 // Check User Authentication
 if(!isset($_SESSION['is_logged_in']) && !isset($redirect_login)){
-	// header ('Location: login.php');
-	
-	$hanif = 123;
+	header ('Location: login.php');
+}
 
-	echo $hanif;
+function create_message($message){
+	if (count($message) <= 0) {
+		return;
+	}
+	?>
 
-	echo 'master';
+	<div class="alert alert-<?php echo $message[0]; ?>">
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		<?php echo $message[1]; ?>
+	</div>
+	<?php
 }
