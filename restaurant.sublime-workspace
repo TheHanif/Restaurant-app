@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"header",
+				"header"
+			],
+			[
+				"bs3aler",
+				"bs3-alert:danger	bs3-alert-danger"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"bs3form",
+				"bs3-form	bs3-form"
+			],
+			[
+				"bs3cdn",
+				"bs3-cdn:css	bs3-cdn-css"
+			],
+			[
 				"req",
 				"req1	require_once …"
 			],
@@ -32,10 +52,6 @@
 				"bs3-panel:footer	bs3-panel-footer"
 			],
 			[
-				"bs3form",
-				"bs3-form:inline	bs3-form-inline"
-			],
-			[
 				"cen",
 				"center"
 			],
@@ -62,10 +78,6 @@
 			[
 				"uns",
 				"unset"
-			],
-			[
-				"fun",
-				"function"
 			],
 			[
 				"tri",
@@ -502,25 +514,13 @@
 			[
 				"fonts",
 				"font-size"
-			],
-			[
-				"re",
-				"relative"
-			],
-			[
-				"borra",
-				"border-radius"
-			],
-			[
-				"paddi",
-				"padding"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "includes/footer.php",
+			"contents": "",
 			"settings":
 			{
 				"buffer_size": 0,
@@ -528,26 +528,54 @@
 			}
 		},
 		{
-			"file": "index.php",
+			"file": "/Volumes/Macintosh HD 2/Imagiation/Awaztv/awaztvpk_awaztv.sql",
 			"settings":
 			{
-				"buffer_size": 39,
+				"buffer_size": 2528503,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "includes/header.php",
+			"file": "/Volumes/Macintosh HD 2/Imagiation/Awaztv/awaztv/tpl/main/video.php",
 			"settings":
 			{
-				"buffer_size": 40,
+				"buffer_size": 11731,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "common/init.php",
+			"file": "/Volumes/Macintosh HD 2/Imagiation/Awaztv/awaztv/embed.php",
 			"settings":
 			{
-				"buffer_size": 498,
+				"buffer_size": 2955,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Volumes/Macintosh HD 2/Imagiation/Awaztv/awaztv/com/com_video.php",
+			"settings":
+			{
+				"buffer_size": 3900,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/TheHanif/Desktop/test.html",
+			"settings":
+			{
+				"buffer_size": 512,
+				"line_ending": "Unix",
+				"name": "<head>"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n  <link type=\"text/css\" rel=\"stylesheet\" href=\"../bower_components/video.js/dist/video-js/video-js.css\"/>\n  <script src=\"video.js\"></script>\n  <script src=\"../src/dailymotion.js\"></script>\n</head>\n<body>\n<video id=\"vid1\" src=\"\" class=\"video-js vjs-default-skin\" controls preload=\"auto\" width=\"640\" height=\"360\"\n       data-setup='{ \"techOrder\": [\"dailymotion\", \"html5\"], \"src\": \"http://www.dailymotion.com/video/x39oca2_intensive-fight-between-daniyal-aziz-imran-ismail_news\" }'>\n</video>\n</body>\n</html>\n\n\n<iframe frameborder=\"0\" width=\"480\" height=\"270\" src=\"//www.dailymotion.com/embed/video/x39oca2\" allowfullscreen></iframe><br /><a href=\"http://www.dailymotion.com/video/x39oca2_intensive-fight-between-daniyal-aziz-imran-ismail_news\" target=\"_blank\">Intensive Fight Between Daniyal Aziz &amp; Imran...</a> <i>by <a href=\"http://www.dailymotion.com/Awaiz_pp\" target=\"_blank\">Awaiz_pp</a></i>\n\n",
+			"file": "/Users/TheHanif/Downloads/video.js-dailymotion-master/sandbox/index.html",
+			"file_size": 535,
+			"file_write_time": 130893693610000000,
+			"settings":
+			{
+				"buffer_size": 929,
 				"line_ending": "Unix"
 			}
 		}
@@ -559,11 +587,19 @@
 		"selected_items":
 		[
 			[
-				"insta",
-				"Package Control: Install Package"
+				"Snippet: cdn",
+				"Snippet: bs3-cdn"
+			],
+			[
+				"Snippet: jqu",
+				"Snippet: Google AJAX Libraries: jQuery"
 			],
 			[
 				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
@@ -708,17 +744,27 @@
 	},
 	"file_history":
 	[
+		"/Users/TheHanif/Downloads/video.js-dailymotion-master/bower.json",
+		"/Volumes/Macintosh HD 2/Imagiation/Lloyd Will/residentsent.com/resident-cms/include/functions.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Awaztv/awaztv/vibe_config.php",
+		"/Volumes/Macintosh HD 2/new-app/admin/classes/class.users.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/common/init.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/classes/class.user.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/login.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/config.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/classes/class.users.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/common/class.database.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/includes/header.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/restaurant.sublime-project",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/index.php",
+		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/includes/footer.php",
 		"/Volumes/Macintosh HD 2/Imagiation/pos-new/common/init.php",
 		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/header.php",
-		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/config.php",
-		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/common/init.php",
-		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/includes/header.php",
 		"/Volumes/Macintosh HD 2/Imagiation/pos-new/add_offer.php",
 		"/Volumes/Macintosh HD 2/Imagiation/pos-new/header.php",
 		"/Volumes/Macintosh HD 2/Imagiation/pos-new/old.php",
 		"/Volumes/Macintosh HD 2/Imagiation/pos-new/index.php",
 		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/classes/index.html",
-		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/index.php",
 		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/.htaccess",
 		"/Volumes/Macintosh HD 2/Imagiation/pos-new/config.php",
 		"/Volumes/Macintosh HD 2/Imagiation/Restaurant POS/Restaurant-app/common/defaults.php",
@@ -825,21 +871,11 @@
 		"/Volumes/Macintosh HD 2/Imagiation/Cinema/HTML/Archive.zip",
 		"/Volumes/Macintosh HD 2/Imagiation/Affinity/affinity-cms/include/functions.php",
 		"/Volumes/Macintosh HD 2/Imagiation/Affinity/affinity-cms/admin/order.php",
-		"/Volumes/Macintosh HD 2/Imagiation/Affinity/affinity-cms/admin/orders.php",
-		"/Volumes/Macintosh HD 2/Imagiation/Affinity/affinity-cms/admin/index.php",
-		"/Volumes/Macintosh HD 2/Backups/Resouces/Plugins/jQuery/Chart.js-master/samples/pie-customTooltips.html",
-		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/contents/themes/fashion-theme/404.php",
-		"/Volumes/Macintosh HD 2/Imagiation/img_new/img-cms/contents/themes/imagiacian_theme/single.php",
-		"/Volumes/Macintosh HD 2/Imagiation/img_new/img-cms/admin/index.php",
-		"/Volumes/Macintosh HD 2/Imagiation/Fashioneastas/fashion-cms/admin/index.php",
-		"/Volumes/Macintosh HD 2/Imagiation/img_new/img-cms/contents/themes/imagiacian_theme/css/design.css",
-		"/Volumes/Macintosh HD 2/Imagiation/img_new/img-cms/contents/themes/imagiacian_theme/css/style.css",
-		"/Volumes/Macintosh HD 2/Imagiation/img_new/img-cms/contents/themes/imagiacian_theme/functions.php",
-		"/Volumes/Macintosh HD 2/new-app/include/class.database.php"
+		"/Volumes/Macintosh HD 2/Imagiation/Affinity/affinity-cms/admin/orders.php"
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -853,6 +889,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"video-holder",
+			"awaztv.pk",
+			"awaztv.vom",
+			"awaztvpk_awaztv",
+			"Modi123",
+			"username",
 			"nav",
 			"button",
 			"span",
@@ -974,13 +1016,7 @@
 			"col-md",
 			"md-",
 			"md",
-			"post_excerpt",
-			"term_or",
-			"header_logo",
-			"jpg",
-			"';\n",
-			"1",
-			"mission"
+			"post_excerpt"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -998,12 +1034,11 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "includes/footer.php",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1020,31 +1055,32 @@
 						],
 						"settings":
 						{
+							"auto_name": "",
 							"incomplete_sync": null,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "index.php",
+					"file": "/Volumes/Macintosh HD 2/Imagiation/Awaztv/awaztvpk_awaztv.sql",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 39,
+						"buffer_size": 2528503,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24,
-								24
+								2219331,
+								2219340
 							]
 						],
 						"settings":
@@ -1052,38 +1088,138 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/SQL/SQL.tmLanguage"
+						},
+						"translation.x": 983.0,
+						"translation.y": 185711.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Volumes/Macintosh HD 2/Imagiation/Awaztv/awaztv/tpl/main/video.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								824,
+								835
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Volumes/Macintosh HD 2/Imagiation/Awaztv/awaztv/embed.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2815,
+								2815
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 436.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Volumes/Macintosh HD 2/Imagiation/Awaztv/awaztv/com/com_video.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 884.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "includes/header.php",
+					"buffer": 5,
+					"file": "/Users/TheHanif/Desktop/test.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 40,
+						"buffer_size": 512,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								40,
-								40
+								427,
+								427
 							]
 						],
 						"settings":
 						{
+							"auto_name": "<head>",
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1093,20 +1229,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "common/init.php",
+					"buffer": 6,
+					"file": "/Users/TheHanif/Downloads/video.js-dailymotion-master/sandbox/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 498,
+						"buffer_size": 929,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								73,
-								73
+								86,
+								86
 							]
 						],
 						"settings":
@@ -1114,13 +1250,13 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1169,6 +1305,10 @@
 	{
 		"height": 334.0
 	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
 	"project": "restaurant.sublime-project",
 	"replace":
 	{
@@ -1215,13 +1355,63 @@
 	{
 		"xdebug":
 		{
-			"hide_conflict": false
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"15":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"16":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"17":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"18":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"22":
+				{
+					"group": 0,
+					"index": 3
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
 		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 245.0,
 	"status_bar_visible": true,
 	"template_settings":
