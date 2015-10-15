@@ -1,0 +1,42 @@
+a:hover, a:active, a:focus{
+	text-decoration: none;
+	outline: none;
+}
+
+/*===============================
+=            Sidebar            =
+===============================*/
+
+.cd-side-nav > ul > li > a::before{
+	display: none;
+}
+.cd-side-nav > ul > li > a > i.fa{
+	position: absolute;
+  content: '';
+  left: 5%;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 16px;
+  width: 16px;
+font-size: 17px;
+color: #585C64;
+}
+@media only screen and (min-width: 768px) and (max-device-width : 1169px){
+	.cd-side-nav > ul > li > a > i.fa {
+	    left: 50%;
+	    right: auto;
+	    -webkit-transform: translateX(-50%);
+	    -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	    -o-transform: translateX(-50%);
+	    transform: translateX(-50%);
+	    top: 1.2em;
+	    font-size: 20px;
+	  }
+}
+/*=====  End of Sidebar  ======*/
