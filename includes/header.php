@@ -24,11 +24,15 @@
 <header class="cd-main-header">
 	<a href="#0" class="cd-logo"><img src="assets/codyhouse-menu/img/cd-logo.svg" alt="Logo"></a>
 
-	<div class="cd-search is-hidden">
+	<!-- <div class="cd-search is-hidden">
 		<form action="#0">
 			<input type="search" placeholder="Search...">
 		</form>
-	</div> <!-- cd-search -->
+	</div> --> <!-- cd-search -->
+
+	<div class="cd-welcome">
+		<i class="fa fa-ellipsis-v"></i><strong>Welcome</strong> Al Habib Restaurant
+	</div><!-- cd-welcome -->
 
 	<a href="#0" class="cd-nav-trigger"><span></span></a>
 

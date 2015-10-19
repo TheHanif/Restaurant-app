@@ -3,10 +3,61 @@ a:hover, a:active, a:focus{
 	outline: none;
 }
 
+
+/*==============================
+=            Header            =
+==============================*/
+
+.cd-main-header{
+	background-color: #5ccddf;
+	color: #fff;
+}
+.cd-main-header a{
+	color: #fff;
+}
+
+.cd-main-header .cd-logo{
+	/*background-color: #354052;*/
+	background-color: #2C3136;
+	margin: 0;
+	padding: 16px 38px 16px 38px;
+	display: block;
+}
+.cd-main-header .cd-search{
+	margin-left: 0;
+}
+.cd-search input{
+	background-color: transparent;
+	border: none;
+}
+.cd-top-nav .has-children{
+	background-color: transparent;
+}
+.cd-welcome .fa{
+	margin: 0 1.25em;
+}
+.cd-welcome strong{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.cd-welcome {
+  display: inline-block;
+  float: left;
+  height: 100%;
+  margin: 0;
+  /*width: 250px;*/
+	padding-top: 15px;
+}
+/*=====  End of Header  ======*/
+
+
+
 /*===============================
 =            Sidebar            =
 ===============================*/
+.cd-side-nav{
 
+}
 .cd-side-nav > ul > li > a::before{
 	display: none;
 }
@@ -39,4 +90,18 @@ color: #585C64;
 	    font-size: 20px;
 	  }
 }
+.cd-side-nav .active > a {
+  box-shadow: 3px 0 0 #5ccddf inset;
+}
 /*=====  End of Sidebar  ======*/
+
+
+/*============================
+=            BODY            =
+============================*/
+
+.cd-main-content .content-wrapper {
+  padding: 75px 2.5em 2.5em;
+}
+
+/*=====  End of BODY  ======*/
