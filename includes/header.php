@@ -13,7 +13,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/codyhouse-menu/css/style.css"> <!-- Resource style -->
 	<script src="assets/codyhouse-menu/js/modernizr.js"></script> <!-- Modernizr -->
-
+	<link rel="stylesheet" href="assets/css/jquery.dataTables.min.css"></style>
+	
 	<link rel="stylesheet" href="assets/css/main-styles.css">
 
 </head>
@@ -61,21 +62,21 @@
 	<nav class="cd-side-nav">
 		<ul>
 			<li class="has-children">
-				<a href="#0"><i class="fa fa-th"></i> Products</a>
+				<a href="#0"><i class="fa fa-th"></i> Packages</a>
 				
 				<ul>
-					<li><a href="#0">All Data</a></li>
-					<li><a href="#0">Category 1</a></li>
-					<li><a href="#0">Category 2</a></li>
+					<li><a href="#0">test</a></li>
+					<li><a href="#0">test 1</a></li>
+					<li><a href="#0">test 2</a></li>
 				</ul>
 			</li>
 			<li class="has-children active">
-				<a href="#0"><i class="fa fa-th"></i> Categories</a>
+				<a href="#0"><i class="fa fa-th"></i> Companies</a>
 				
 				<ul>
-					<li><a href="#0">All Notifications</a></li>
-					<li><a href="#0">Friends</a></li>
-					<li><a href="#0">Other</a></li>
+					<li><a href="#0">test</a></li>
+					<li><a href="#0">test</a></li>
+					<li><a href="#0">test</a></li>
 				</ul>
 			</li>
 
@@ -83,9 +84,9 @@
 				<a href="#0"><i class="fa fa-th"></i> Special Offers</a>
 				
 				<ul>
-					<li><a href="#0">All Comments</a></li>
-					<li><a href="#0">Edit Comment</a></li>
-					<li><a href="#0">Delete Comment</a></li>
+					<li><a href="#0">All test</a></li>
+					<li><a href="#0">Edit test</a></li>
+					<li><a href="#0">Delete test</a></li>
 				</ul>
 			</li>
 		</ul>

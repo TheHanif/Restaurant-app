@@ -48,6 +48,11 @@ a:hover, a:active, a:focus{
   /*width: 250px;*/
 	padding-top: 15px;
 }
+
+.breadcrumb a{
+	color: #6e7e95;
+	font-size: 12px;
+}
 /*=====  End of Header  ======*/
 
 
@@ -104,4 +109,72 @@ color: #585C64;
   padding: 75px 2.5em 2.5em;
 }
 
+body{
+	background-color: #f2f2f2;
+}
+
+
 /*=====  End of BODY  ======*/
+
+
+/*============================
+=            TABLE            =
+============================*/
+
+#myTable {
+	border: 1px solid #e1e1e1;
+    color: #828692;
+    border-radius: 2px;
+    margin-bottom: 25px;
+}
+
+#myTable thead{
+	background: #5dcedc;
+	color: white;
+}
+
+.custom-table{
+	    margin-top: 25px;
+}
+
+#myTable_filter{
+	    margin-bottom: 5px;
+}
+
+#myTable_length{
+	padding-top: 15px;
+}
+
+
+#myTable_filter input{
+    border: 0px;
+    height: 35px;
+}
+
+#myTable_length label, #myTable_filter label{
+	color: #49454C;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.fa{margin-right: 10px;}
+
+.edit-icon{
+	color: #87B76F;
+}
+.hold-icon{
+	 color: red;
+}
+
+.delete-icon{
+	 color: black;
+}
+
+    
+/*============================
+=            PAGES            =
+============================*/
+.page-heading h1{
+	text-align: left!important;
+    padding: 10px 0px!important;
+}
