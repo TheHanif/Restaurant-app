@@ -79,8 +79,28 @@
 				<a href="#0"><i class="fa fa-th"></i> Packages</a>
 				
 				<ul>
-					<li><a href="view-packages.php">View Packages</a></li>
-					<li><a href="add-packages.php">Add Packages</a></li>
+					<li><a href="view_package.php">View Packages</a></li>
+					<li><a href="add_package.php">Add Package</a></li>
+					
+				</ul>
+			</li>
+
+			<li class="has-children active">
+				<a href="#0"><i class="fa fa-th"></i> Companies</a>
+				
+				<ul>
+					<li><a href="view_company.php">View Companies</a></li>
+					<li><a href="add_company.php">Add Company</a></li>
+					
+				</ul>
+			</li>
+
+			<li class="has-children active">
+				<a href="#0"><i class="fa fa-th"></i> Branches</a>
+				
+				<ul>
+					<li><a href="view_branch.php">View Branches</a></li>
+					<li><a href="add_branch.php">Add Branch</a></li>
 					
 				</ul>
 			</li>

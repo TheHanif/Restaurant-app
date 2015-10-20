@@ -267,6 +267,10 @@ background: #FFF6F5;}
 
 }
 
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+	background-color: white!important;
+}
+
 /*============================
 =            FORM            =
 ============================*/
