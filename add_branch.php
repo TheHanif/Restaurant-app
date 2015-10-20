@@ -4,7 +4,7 @@
 	
 	<ul class="breadcrumb">
 	    <li><a href="#">Home</a></li>
-	    <li><a href="view_branches.php">Branches</a></li>
+	    <li><a href="view_branch.php">Branches</a></li>
 	    <li><a class="active" href="#" >Add</a></li>
 	</ul>
 

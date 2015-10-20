@@ -6,11 +6,11 @@
 	
 	<ul class="breadcrumb">
 	    <li><a href="#">Home</a></li>
-	    <li><a class="active" href="#">Packages</a></li>
+	    <li><a class="active" href="#">Companies</a></li>
 	</ul>
 
 <div class="page-heading">
-	<h1>View Packages</h1>
+	<h1>View Companies</h1>
 </div>
 
 	<div class="table-responsive custom-table">
