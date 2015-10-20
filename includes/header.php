@@ -23,7 +23,7 @@
 <div id="main-wrapper">
 
 <header class="cd-main-header">
-	<a href="#0" class="cd-logo"><img src="assets/codyhouse-menu/img/cd-logo.svg" alt="Logo"></a>
+	<a href="#0" class="cd-logo"><img src="assets/images/logo.png" alt="Logo"></a>
 
 	<!-- <div class="cd-search is-hidden">
 		<form action="#0">
@@ -41,17 +41,31 @@
 		<ul class="cd-top-nav">
 			<li><a href="#0">Tour</a></li>
 			<li><a href="#0">Support</a></li>
-			<li class="has-children account">
+			
+			<li class="has-children account dropdown dropdown-toggle" data-toggle="dropdown2">
 				<a href="#0">
 					<img src="assets/codyhouse-menu/img/cd-avatar.png" alt="avatar">
 					Account
 				</a>
 
-				<ul>
+				<ul class="">
 
 					<li><a href="#0">My Account</a></li>
 					<li><a href="#0">Edit Account</a></li>
 					<li><a href="#0">Logout</a></li>
+				</ul>
+			</li>
+
+			<li class="has-children account ">
+				<a href="#0">
+					Companies
+				</a>
+
+				<ul class="">
+					<li><a href="#0">Pizza Italiano</a></li>
+					<li><a href="#0">Mc'Donald</a></li>
+					<li><a href="#0">KBC</a></li>
+					<li><a href="#0">Kabees</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -61,16 +75,16 @@
 <main class="cd-main-content">
 	<nav class="cd-side-nav">
 		<ul>
-			<li class="has-children">
+			<li class="has-children active">
 				<a href="#0"><i class="fa fa-th"></i> Packages</a>
 				
 				<ul>
-					<li><a href="#0">test</a></li>
-					<li><a href="#0">test 1</a></li>
-					<li><a href="#0">test 2</a></li>
+					<li><a href="view-packages.php">View Packages</a></li>
+					<li><a href="add-packages.php">Add Packages</a></li>
+					
 				</ul>
 			</li>
-			<li class="has-children active">
+			<li class="has-children ">
 				<a href="#0"><i class="fa fa-th"></i> Companies</a>
 				
 				<ul>
