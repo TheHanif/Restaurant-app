@@ -3,7 +3,7 @@
 
 
 <div class="container-fluide">
-	
+<?php if(isset($_SESSION['company_id'])){	?>
 	<ul class="breadcrumb">
 	    <li><a href="#">Home</a></li>
 	    <li><a class="active" href="#">Branches</a></li>
@@ -34,7 +34,7 @@
 
 	        <?php 
 				foreach($results as $res){
-				
+				  if($res->branch_company_id == $_SESSION['company_id']){
 				echo '<tr>';
 				echo '<td>'. $res->branch_code .'</td>';
 				echo '<td>'. $res->branch_company_id .'</td>';
@@ -46,12 +46,15 @@
 	            echo '<i class="fa fa-trash-o delete-icon"></i>';
 	            echo '</td>';
 				echo '</tr>';
-				}
+						}
+					}
+				
 				?>
 	          
 
 	        </tbody>  
       </table>  
+      <?php }?>
 	</div>
 
 </div>

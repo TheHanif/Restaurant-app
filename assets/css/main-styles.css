@@ -80,6 +80,17 @@ background-color: rgb(37, 45, 58);
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
+.company_name{
+	font-weight: bold;
+    text-transform: uppercase;
+    color: #354052;
+    font-size: 20px;
+        display: inline;
+    margin-left: 10px;
+}
+
+
 .cd-welcome {
   display: inline-block;
   float: left;
@@ -286,6 +297,10 @@ background: #FFF6F5;}
 
 .account  ul{
 	    background-color: #5DCEDC!important;
+}
+
+.account > ul > li a {
+    padding: 0.5em .6em !important;
 }
 
 .account  ul a:hover {

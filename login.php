@@ -4,6 +4,10 @@ require_once 'common/init.php';
 
 $user = new user();
 
+if (isset($_GET['logout']) && $_GET['logout'] == 'true') {
+	 $user->session_destroy();
+}
+
 if (isset($_POST['username']) && isset($_POST['password'])) {
 	
 	if (!$user->do_login($_POST['username'], $_POST['password'])) {

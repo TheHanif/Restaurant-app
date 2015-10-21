@@ -46,4 +46,10 @@ class user extends database
 			return false;
 		}
 	} // end of is_logged_in()
+
+
+	public function session_destroy(){
+		unset($_SESSION['is_logged_in']);
+		session_destroy();
+	}
 }

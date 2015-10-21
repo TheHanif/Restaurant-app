@@ -3,7 +3,7 @@
 
 </div><!-- #main-wrapper -->
 
-<script src="//code.jquery.com/jquery.js"></script>
+
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.dataTables.min.js"></script>
 <script src="assets/codyhouse-menu/js/jquery.menu-aim.js"></script>
