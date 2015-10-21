@@ -85,7 +85,7 @@
 				</ul>
 			</li>
 
-			<li class="has-children active">
+			<li class="has-children ">
 				<a href="#0"><i class="fa fa-th"></i> Companies</a>
 				
 				<ul>
@@ -95,7 +95,7 @@
 				</ul>
 			</li>
 
-			<li class="has-children active">
+			<li class="has-children ">
 				<a href="#0"><i class="fa fa-th"></i> Branches</a>
 				
 				<ul>
