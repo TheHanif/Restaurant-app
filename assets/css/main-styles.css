@@ -17,44 +17,11 @@ a:hover, a:active, a:focus{
 
 }
 
-.cd-side-nav li a{
-	font-size: 14px;
-	padding: 10px 10px 10px 32px !important; 
-	color: #b9b8bd;
-
-}
-
-.cd-side-nav .active a{
-	color: #fff;
-}
-
-.cd-side-nav .active  ul li a{
-	color: #b9b8bd;
-}
-
-.cd-side-nav li ul li a{
-	font-size: 13px;
-	padding: 8px 10px; 
-	color: #b9b8bd;
-
-}
-
-.cd-side-nav{
-	    background-color: #354052;
-}
-
-.cd-side-nav > ul {
-  padding-top: 25px;
-}
-
-.cd-side-nav > ul > li:not(.action-btn):hover > a{
-	background-color: #5CCDDF!important;
-}
-
 .cd-main-header .cd-logo{
 	background-color: #354052;
     margin: 0;
-    padding: 25px 38px 16px 17px;
+    /*padding: 25px 38px 16px 17px;*/
+    padding: 13px 38px 12px 17px;
     display: block;
     border: 0px;
 }
@@ -80,17 +47,6 @@ background-color: rgb(37, 45, 58);
 	font-weight: bold;
 	text-transform: uppercase;
 }
-
-.company_name{
-	font-weight: bold;
-    text-transform: uppercase;
-    color: #354052;
-    font-size: 20px;
-        display: inline;
-    margin-left: 10px;
-}
-
-
 .cd-welcome {
   display: inline-block;
   float: left;
@@ -109,6 +65,9 @@ background-color: rgb(37, 45, 58);
 	    color: #1C1F22!important;
 }
 
+.company_name{display: inline;}
+#removeProfilePic{position: absolute;top:0px;}
+
 /*=====  End of Header  ======*/
 
 
@@ -116,14 +75,43 @@ background-color: rgb(37, 45, 58);
 /*===============================
 =            Sidebar            =
 ===============================*/
-.cd-side-nav{
 
+.cd-side-nav{
+	background-color: #354052;
 }
+/*.cd-side-nav li a{
+	font-size: 14px;
+	padding: 10px 10px 10px 32px !important; 
+	color: #b9b8bd;
+}*/
+
+.cd-side-nav .active a{
+	color: #fff;
+}
+
+.cd-side-nav .active  ul li a{
+	color: #b9b8bd;
+}
+
+.cd-side-nav li ul li a{
+	font-size: 13px;
+	padding: 8px 10px; 
+	color: #b9b8bd;
+}
+
+.cd-side-nav{
+	background-color: #354052;
+}
+
+/*.cd-side-nav > ul {
+  padding-top: 25px;
+}*/
+
 .cd-side-nav > ul > li > a::before{
 	display: none;
 }
 .cd-side-nav > ul > li > a > i.fa{
-	position: absolute;
+position: absolute;
   content: '';
   left: 5%;
   top: 50%;
@@ -139,7 +127,7 @@ font-size: 17px;
 color: #585C64;
 }
 
-.cd-side-nav > ul > li.active > a> i.fa{
+.cd-side-nav > ul > li.active > a> i.fa, .cd-side-nav > ul > li > a:hover> i.fa{
 	color: white;
 }
 
@@ -157,9 +145,14 @@ color: #585C64;
 	  }
 }
 .cd-side-nav .active > a {
-  box-shadow: 3px 0 0 #5ccddf inset;
-      background: #5CCDDF;
+	box-shadow: 3px 0 0 #5ccddf inset;
+	background: #5CCDDF;
 }
+
+.cd-side-nav > ul > li:not(.action-btn):hover > a{
+	background-color: #5CCDDF!important;
+}
+
 /*=====  End of Sidebar  ======*/
 
 
@@ -299,11 +292,27 @@ background: #FFF6F5;}
 	    background-color: #5DCEDC!important;
 }
 
-.account > ul > li a {
-    padding: 0.5em .6em !important;
-}
-
 .account  ul a:hover {
     color: #3E4A5B!important;
 }
 
+hr{
+	border-color: #ccc;
+}
+/*======================================
+=            Admin packages            =
+======================================*/
+
+.packages-features label{
+	font-weight: normal;
+	font-size: 14px;
+	display: block;
+}
+.packages-features label strong{
+	font-size: 16px;
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/*=====  End of Admin packages  ======*/

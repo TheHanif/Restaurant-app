@@ -11,6 +11,20 @@
 <script>
 $(document).ready(function(){
     $('#myTable').dataTable();
+
+    $('#removeProfilePic').click(function(event) {
+
+       $('.profilePic').fadeOut('slow', function() {
+
+        $('#showNewPicSubmit').fadeIn('slow', function() {
+
+         
+
+        });
+
+       });
+
+      }); //removeProfilePic
 });
 </script>
 </body>

@@ -106,8 +106,12 @@
 				</ul>
 			</li>
 
+
 			
 			<li class="has-children active">
+
+			<li class="has-children ">
+
 				<a href="#0"><i class="fa fa-th"></i> Companies</a>
 				
 				<ul>
@@ -118,8 +122,12 @@
 			</li>
 			<?php } ?>
 
+
 			<?php if(isset($_SESSION['company_id'])){?>
 			<li class="has-children active">
+
+			<li class="has-children ">
+
 				<a href="#0"><i class="fa fa-th"></i> Branches</a>
 				
 				<ul>
@@ -140,36 +148,38 @@
 			</li>
 
 			<li class="has-children active">
-				<a href="#0"><i class="fa fa-th"></i> Menu</a>
+				<a href="#0"><i class="fa fa-th"></i> Categories</a>
 				
 				<ul>
-					<li><a href="view_branch_category.php">Categories</a></li>
-					<li><a href="add_branch_user.php">Add Staff</a></li>
+					<li><a href="view_branch_category.php">View Categories</a></li>
+					<li><a href="add_branch_category.php">Add Category</a></li>
+					
+				</ul>
+			</li>
+
+			<li class="has-children active">
+				<a href="#0"><i class="fa fa-th"></i> Spices</a>
+				
+				<ul>
+					<li><a href="view_branch_spice.php">View Spices</a></li>
+					<li><a href="add_branch_spice.php">Add Spice</a></li>
+					
+				</ul>
+			</li>
+
+			<li class="has-children active">
+				<a href="#0"><i class="fa fa-th"></i> Items</a>
+				
+				<ul>
+					<li><a href="view_branch_item.php">View Items</a></li>
+					<li><a href="add_branch_item.php">Add Item</a></li>
 					
 				</ul>
 			</li>
 
 
 			<?php } ?>
-			<li class="has-children ">
-				<a href="#0"><i class="fa fa-th"></i> test</a>
-				
-				<ul>
-					<li><a href="#0">test</a></li>
-					<li><a href="#0">test</a></li>
-					<li><a href="#0">test</a></li>
-				</ul>
-			</li>
-
-			<li class="has-children">
-				<a href="#0"><i class="fa fa-th"></i> Special Offers</a>
-				
-				<ul>
-					<li><a href="#0">All test</a></li>
-					<li><a href="#0">Edit test</a></li>
-					<li><a href="#0">Delete test</a></li>
-				</ul>
-			</li>
+			
 		</ul>
 	</nav>
 
