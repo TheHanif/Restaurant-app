@@ -54,7 +54,8 @@ a:hover, a:active, a:focus{
 .cd-main-header .cd-logo{
 	background-color: #354052;
     margin: 0;
-    padding: 25px 38px 16px 17px;
+    /*padding: 25px 38px 16px 17px;*/
+    padding: 13px 38px 12px 17px;
     display: block;
     border: 0px;
 }
