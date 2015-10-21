@@ -128,7 +128,7 @@ color: #585C64;
 	color: white;
 }
 
-@media only screen and (min-width: 768px) and (max-device-width : 1169px){
+@media only screen and (min-width: 768px) and (max-width : 1169px){
 	.cd-side-nav > ul > li > a > i.fa {
 	    left: 50%;
 	    right: auto;
@@ -137,7 +137,7 @@ color: #585C64;
 	    -ms-transform: translateX(-50%);
 	    -o-transform: translateX(-50%);
 	    transform: translateX(-50%);
-	    top: 1.2em;
+	    top: 25%;
 	    font-size: 20px;
 	  }
 }
