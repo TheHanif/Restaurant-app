@@ -14,18 +14,25 @@ a:hover, a:active, a:focus{
 }
 .cd-main-header a{
 	color: #fff;
+
 }
 
 .cd-main-header .cd-logo{
-	/*background-color: #354052;*/
-	background-color: #2C3136;
-	margin: 0;
-	padding: 16px 38px 16px 38px;
-	display: block;
+	background-color: #354052;
+    margin: 0;
+    /*padding: 25px 38px 16px 17px;*/
+    padding: 13px 38px 12px 17px;
+    display: block;
+    border: 0px;
 }
 .cd-main-header .cd-search{
 	margin-left: 0;
 }
+
+.has-children ul{
+background-color: rgb(37, 45, 58);
+}
+
 .cd-search input{
 	background-color: transparent;
 	border: none;
@@ -48,6 +55,16 @@ a:hover, a:active, a:focus{
   /*width: 250px;*/
 	padding-top: 15px;
 }
+
+.breadcrumb a{
+	color: #6e7e95;
+	font-size: 12px;
+}
+
+.breadcrumb  .active{
+	    color: #1C1F22!important;
+}
+
 /*=====  End of Header  ======*/
 
 
@@ -55,14 +72,43 @@ a:hover, a:active, a:focus{
 /*===============================
 =            Sidebar            =
 ===============================*/
-.cd-side-nav{
 
+.cd-side-nav{
+	background-color: #354052;
 }
+/*.cd-side-nav li a{
+	font-size: 14px;
+	padding: 10px 10px 10px 32px !important; 
+	color: #b9b8bd;
+}*/
+
+.cd-side-nav .active a{
+	color: #fff;
+}
+
+.cd-side-nav .active  ul li a{
+	color: #b9b8bd;
+}
+
+.cd-side-nav li ul li a{
+	font-size: 13px;
+	padding: 8px 10px; 
+	color: #b9b8bd;
+}
+
+.cd-side-nav{
+	background-color: #354052;
+}
+
+/*.cd-side-nav > ul {
+  padding-top: 25px;
+}*/
+
 .cd-side-nav > ul > li > a::before{
 	display: none;
 }
 .cd-side-nav > ul > li > a > i.fa{
-	position: absolute;
+position: absolute;
   content: '';
   left: 5%;
   top: 50%;
@@ -77,6 +123,11 @@ a:hover, a:active, a:focus{
 font-size: 17px;
 color: #585C64;
 }
+
+.cd-side-nav > ul > li.active > a> i.fa, .cd-side-nav > ul > li > a:hover> i.fa{
+	color: white;
+}
+
 @media only screen and (min-width: 768px) and (max-device-width : 1169px){
 	.cd-side-nav > ul > li > a > i.fa {
 	    left: 50%;
@@ -91,8 +142,14 @@ color: #585C64;
 	  }
 }
 .cd-side-nav .active > a {
-  box-shadow: 3px 0 0 #5ccddf inset;
+	box-shadow: 3px 0 0 #5ccddf inset;
+	background: #5CCDDF;
 }
+
+.cd-side-nav > ul > li:not(.action-btn):hover > a{
+	background-color: #5CCDDF!important;
+}
+
 /*=====  End of Sidebar  ======*/
 
 
@@ -104,4 +161,155 @@ color: #585C64;
   padding: 75px 2.5em 2.5em;
 }
 
+body{
+	background-color: #f2f2f2;
+}
+
+
 /*=====  End of BODY  ======*/
+
+
+/*============================
+=            TABLE            =
+============================*/
+
+#myTable {
+	border: 1px solid #e1e1e1;
+    color: #828692;
+    border-radius: 2px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+#myTable thead{
+	background: #5dcedc;
+	color: white;
+}
+
+.custom-table{
+	    margin-top: 25px;
+}
+
+#myTable_filter{
+	    margin-bottom: 5px;
+}
+
+#myTable_length{
+	padding-top: 15px;
+}
+
+
+#myTable_filter input{
+    border: 0px;
+    height: 35px;
+}
+
+#myTable_length label, #myTable_filter label{
+	color: #49454C;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.fa{margin-right: 10px;}
+
+.edit-icon{
+	color: #87B76F;
+}
+.hold-icon{
+	 color: red;
+}
+
+.delete-icon{
+	 color: black;
+}
+
+#myTable .odd{
+	background: #F6F9FF;
+
+    }
+
+#myTable .odd td{
+ border-bottom: 1px solid #E1E1E1;
+ border-top: 1px solid #E1E1E1;
+}
+
+#myTable .disabled td{
+background: #FFF6F5;}
+
+/*============================
+=            TABLE            =
+============================*/
+
+/*============================
+=            FORM            =
+============================*/
+
+
+.form-container{
+
+    padding: 30px 10px;
+    margin: auto;}
+
+.btn-container{
+	    text-align: center;
+}
+
+.btn-container .btn{
+	border-radius: 2px;
+    background: #5CCDDF;
+    border: 0px;
+    padding: 5px 15px;
+    margin-top: 15px;
+}
+
+.form-container .form-control{
+	border: 1px solid #DCD8D8;
+	border-radius: 2px;
+
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+	background-color: white!important;
+}
+
+/*============================
+=            FORM            =
+============================*/
+
+
+/*============================
+=            PAGES            =
+============================*/
+.page-heading h1{
+	text-align: left!important;
+    padding: 10px 0px!important;
+}
+
+.account  ul{
+	    background-color: #5DCEDC!important;
+}
+
+.account  ul a:hover {
+    color: #3E4A5B!important;
+}
+
+hr{
+	border-color: #ccc;
+}
+/*======================================
+=            Admin packages            =
+======================================*/
+
+.packages-features label{
+	font-weight: normal;
+	font-size: 14px;
+	display: block;
+}
+.packages-features label strong{
+	font-size: 16px;
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/*=====  End of Admin packages  ======*/
