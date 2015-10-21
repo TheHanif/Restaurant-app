@@ -3,7 +3,9 @@
 
 
 <div class="container-fluide">
-	
+
+<?php if(!isset($_SESSION['company_id'])){	?>
+
 	<ul class="breadcrumb">
 	    <li><a href="#">Home</a></li>
 	    <li><a class="active" href="#">Packages</a></li>
@@ -50,6 +52,7 @@
       </table>  
 	</div>
 
+<?php } ?>
 </div>
 
 <?php include 'includes/footer.php'; ?>

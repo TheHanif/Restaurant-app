@@ -1,7 +1,7 @@
 <?php include 'includes/header.php'; ?>
 
 <div class="container-fluide">
-	
+<?php if(isset($_SESSION['company_id'])){	?>	
 	<ul class="breadcrumb">
 	    <li><a href="#">Home</a></li>
 	    <li><a href="view_branch.php">Branches</a></li>
@@ -16,6 +16,7 @@
 <?php 
 
 	$branch = new branch();
+	$company = new company();
 
 	
 	$ID = (isset($_GET['id']))? $_GET['id'] : NULL;
@@ -44,17 +45,30 @@
 		  <div class="form-group">
 		    <label for="branch_code" class="col-sm-3 control-label">ID</label>
 		    <div class="col-sm-8">
-		      <input type="text" class="form-control" name="branch_code" id="branch_code" value="<?php echo (isset($ID))? $branch_result->branch_code : '123' ?>" placeholder="Id" readonly>
+		      <input type="text" class="form-control" name="branch_code" id="branch_code" value="<?php echo (isset($ID))? $branch_result->branch_code : '' ?>" placeholder="Id" >
 		    </div>
 		  </div>
 
-		  <div class="form-group">
-		    <label for="branch_company_id" class="col-sm-3 control-label">Company</label>
+		<?php if(isset($_SESSION['company_id'])){
+		    $company_details = $company->get_companies($_SESSION['company_id']);
+			$company_name = $company_details->company_name;
+			$company_id = $company_details->company_id;
+
+		}else{
+			echo $company_name ="";
+		}
+		?>
+
+		<div class="form-group">
+		    <label for="branch_company_name" class="col-sm-3 control-label">Company</label>
 		    <div class="col-sm-8">
-		      <input type="text" class="form-control" name="branch_company_id" id="branch_company_id" value="<?php echo (isset($ID))? $branch_result->branch_company_id : 'session 123' ?>" placeholder="Company id" readonly>
+		      <input type="text" class="form-control" name="branch_company_name" id="branch_company_name" value="<?php echo $company_name;?>" placeholder="Company name" readonly>
 		    </div>
-		    </div>
+		  </div>
+
 		 
+		  <input type="hidden" class="form-control" name="branch_company_id" id="branch_company_id" value="<?php echo $company_id;?>" placeholder="Company id" readonly>
+		   
 
 		  <div class="form-group">
 		    <label for="branch_name" class="col-sm-3 control-label">Name</label>
@@ -103,7 +117,7 @@
 
 </div><!--form-container-->
 
-	
+<?php } ?>
 	</div><!--container-fluide-->
 
 

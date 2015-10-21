@@ -1,7 +1,7 @@
 <?php include 'includes/header.php'; ?>
 
 <div class="container-fluide">
-	
+	<?php if(!isset($_SESSION['company_id'])){	?>
 	<ul class="breadcrumb">
 	    <li><a href="#">Home</a></li>
 	    <li><a href="view_package.php">Packages</a></li>
@@ -114,7 +114,7 @@
 
 </div><!--form-container-->
 
-	
+<?php } ?>	
 	</div><!--container-fluide-->
 
 

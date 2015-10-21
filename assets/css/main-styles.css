@@ -65,6 +65,9 @@ background-color: rgb(37, 45, 58);
 	    color: #1C1F22!important;
 }
 
+.company_name{display: inline;}
+#removeProfilePic{position: absolute;top:0px;}
+
 /*=====  End of Header  ======*/
 
 

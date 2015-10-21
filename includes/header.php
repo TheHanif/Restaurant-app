@@ -1,4 +1,11 @@
-<?php require_once 'common/init.php'; ?>
+<?php require_once 'common/init.php'; 
+
+	$company = new company();
+	$all_company = $company->get_companies();
+
+	$user = new user();
+
+?>
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
@@ -16,6 +23,7 @@
 	<link rel="stylesheet" href="assets/css/jquery.dataTables.min.css"></style>
 	
 	<link rel="stylesheet" href="assets/css/main-styles.css">
+	<script src="//code.jquery.com/jquery.js"></script>
 
 </head>
 <body>
@@ -32,16 +40,41 @@
 	</div> --> <!-- cd-search -->
 
 	<div class="cd-welcome">
-		<i class="fa fa-ellipsis-v"></i><strong>Welcome</strong> Al Habib Restaurant
+		<i class="fa fa-ellipsis-v"></i><strong>Welcome</strong>
+		<?php 
+
+		if(isset($_SESSION['company_id'])){
+			$company_details = $company->get_companies($_SESSION['company_id']);
+			echo '<p class="company_name"><strong> '.$company_details->company_name.'</strong></p>';
+		}else{
+				if(isset($_SESSION['logged_id_data'])){
+					if(isset($_SESSION['super_admin'])){
+					echo '<p class="company_name"><strong> '.$_SESSION["logged_id_data"]->user_display_name.'</strong></p>';
+				 }
+				}
+			}?>
+
 	</div><!-- cd-welcome -->
 
 	<a href="#0" class="cd-nav-trigger"><span></span></a>
 
 	<nav class="cd-nav">
 		<ul class="cd-top-nav">
-			<li><a href="#0">Tour</a></li>
-			<li><a href="#0">Support</a></li>
-			
+
+			<li><a href="" id="admin_selected">Switch Admin</a></li>
+
+			<li class="has-children account ">
+				<a href="#0">
+					Switch Company
+				</a>
+
+				<ul class="company_selection">
+					<?php foreach ($all_company as $value){ ?>
+						<li><a href="" class="selected_company" id="<?php echo $value->company_id; ?>"><?php echo $value->company_name; ?></a></li>
+					<?php } ?>
+				</ul>
+			</li>
+
 			<li class="has-children account dropdown dropdown-toggle" data-toggle="dropdown2">
 				<a href="#0">
 					<img src="assets/codyhouse-menu/img/cd-avatar.png" alt="avatar">
@@ -52,20 +85,7 @@
 
 					<li><a href="#0">My Account</a></li>
 					<li><a href="#0">Edit Account</a></li>
-					<li><a href="#0">Logout</a></li>
-				</ul>
-			</li>
-
-			<li class="has-children account ">
-				<a href="#0">
-					Companies
-				</a>
-
-				<ul class="">
-					<li><a href="#0">Pizza Italiano</a></li>
-					<li><a href="#0">Mc'Donald</a></li>
-					<li><a href="#0">KBC</a></li>
-					<li><a href="#0">Kabees</a></li>
+					<li><a href="login.php?logout=true">Logout</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -75,6 +95,7 @@
 <main class="cd-main-content">
 	<nav class="cd-side-nav">
 		<ul>
+		<?php if(!isset($_SESSION['company_id'])){?>
 			<li class="has-children active">
 				<a href="#0"><i class="fa fa-th"></i> Packages</a>
 				
@@ -85,7 +106,12 @@
 				</ul>
 			</li>
 
+
+			
+			<li class="has-children active">
+
 			<li class="has-children ">
+
 				<a href="#0"><i class="fa fa-th"></i> Companies</a>
 				
 				<ul>
@@ -94,8 +120,14 @@
 					
 				</ul>
 			</li>
+			<?php } ?>
+
+
+			<?php if(isset($_SESSION['company_id'])){?>
+			<li class="has-children active">
 
 			<li class="has-children ">
+
 				<a href="#0"><i class="fa fa-th"></i> Branches</a>
 				
 				<ul>
@@ -104,26 +136,52 @@
 					
 				</ul>
 			</li>
-			<li class="has-children ">
-				<a href="#0"><i class="fa fa-th"></i> Companies</a>
+
+			<li class="has-children active">
+				<a href="#0"><i class="fa fa-th"></i> Staffs</a>
 				
 				<ul>
-					<li><a href="#0">test</a></li>
-					<li><a href="#0">test</a></li>
-					<li><a href="#0">test</a></li>
+					<li><a href="view_branch_user.php">View Staffs</a></li>
+					<li><a href="add_branch_user.php">Add Staff</a></li>
+					
 				</ul>
 			</li>
 
-			<li class="has-children">
-				<a href="#0"><i class="fa fa-th"></i> Special Offers</a>
+			<li class="has-children active">
+				<a href="#0"><i class="fa fa-th"></i> Categories</a>
 				
 				<ul>
-					<li><a href="#0">All test</a></li>
-					<li><a href="#0">Edit test</a></li>
-					<li><a href="#0">Delete test</a></li>
+					<li><a href="view_branch_category.php">View Categories</a></li>
+					<li><a href="add_branch_category.php">Add Category</a></li>
+					
 				</ul>
 			</li>
+
+			<li class="has-children active">
+				<a href="#0"><i class="fa fa-th"></i> Spices</a>
+				
+				<ul>
+					<li><a href="view_branch_spice.php">View Spices</a></li>
+					<li><a href="add_branch_spice.php">Add Spice</a></li>
+					
+				</ul>
+			</li>
+
+			<li class="has-children active">
+				<a href="#0"><i class="fa fa-th"></i> Items</a>
+				
+				<ul>
+					<li><a href="view_branch_item.php">View Items</a></li>
+					<li><a href="add_branch_item.php">Add Item</a></li>
+					
+				</ul>
+			</li>
+
+
+			<?php } ?>
+			
 		</ul>
 	</nav>
 
 	<div class="content-wrapper">
+	<?php require_once 'short_scripts/header_script.php'; ?>
