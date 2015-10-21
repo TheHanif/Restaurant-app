@@ -293,3 +293,23 @@ background: #FFF6F5;}
     color: #3E4A5B!important;
 }
 
+hr{
+	border-color: #ccc;
+}
+/*======================================
+=            Admin packages            =
+======================================*/
+
+.packages-features label{
+	font-weight: normal;
+	font-size: 14px;
+	display: block;
+}
+.packages-features label strong{
+	font-size: 16px;
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/*=====  End of Admin packages  ======*/
