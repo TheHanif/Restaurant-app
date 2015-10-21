@@ -5,12 +5,17 @@
 class package extends database
 {
 	private $table_name;
+	public $packages_status; // Status array
 
 	function __construct()
 	{
 		parent::__construct();
 		$this->table_name = 'packages';
 		
+		// Posible status for package
+		$this->packages_status = array();
+		$this->packages_status['active']	= 'Active';
+		$this->packages_status['deactive'] 	= 'Deactive';
 	}
 
 	public function insert_package($form)
@@ -20,6 +25,7 @@ class package extends database
 		$data['package_unique_id'] = $form['package_unique_id'];
 		$data['package_name'] = $form['package_name'];
 		$data['package_detail'] = $form['package_desc'];
+		$data['package_features'] = json_encode($form['package_features']);
 		$data['package_status'] = $form['package_status'];
 		
 		//print_f($data);
@@ -40,6 +46,7 @@ class package extends database
 		$data['package_unique_id'] = $form['package_unique_id'];
 		$data['package_name'] = $form['package_name'];
 		$data['package_detail'] = $form['package_desc'];
+		$data['package_features'] = json_encode($form['package_features']);
 		$data['package_status'] = $form['package_status'];
 
 		$this->where('package_id', $id);
