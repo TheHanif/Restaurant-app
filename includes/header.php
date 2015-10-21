@@ -1,4 +1,5 @@
 <?php require_once 'common/init.php'; ?>
+
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
