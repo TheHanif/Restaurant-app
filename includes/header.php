@@ -77,7 +77,7 @@
 
 			<li class="has-children account dropdown dropdown-toggle" data-toggle="dropdown2">
 				<a href="#0">
-					<img src="assets/codyhouse-menu/img/cd-avatar.png" alt="avatar">
+					<?php echo '<img src="assets/images/uploads/'.$_SESSION["logged_id_data"]->user_img.'"  class="" alt="">'; ?>
 					Account
 				</a>
 
@@ -110,8 +110,6 @@
 			
 			<li class="has-children active">
 
-			<li class="has-children ">
-
 				<a href="#0"><i class="fa fa-th"></i> Companies</a>
 				
 				<ul>
@@ -120,6 +118,30 @@
 					
 				</ul>
 			</li>
+
+
+			<li class="has-children active">
+
+				<a href="#0"><i class="fa fa-th"></i> Users</a>
+				
+				<ul>
+					<li><a href="view_user.php">View Users</a></li>
+					<li><a href="add_user.php">Add Users</a></li>
+					
+				</ul>
+			</li>
+
+			<li class="has-children active">
+
+				<a href="#0"><i class="fa fa-th"></i> User Roles</a>
+				
+				<ul>
+					<li><a href="view_user_role.php">View Roles</a></li>
+					<li><a href="add_user_role.php">Add Role</a></li>
+					
+				</ul>
+			</li>
+
 			<?php } ?>
 
 
@@ -148,11 +170,41 @@
 			</li>
 
 			<li class="has-children active">
+				<a href="#0"><i class="fa fa-th"></i> Roles</a>
+				
+				<ul>
+					<li><a href="view_branch_user_role.php">View Roles</a></li>
+					<li><a href="add_branch_user_role.php">Add Role</a></li>
+					
+				</ul>
+			</li>
+
+			<li class="has-children active">
+				<a href="#0"><i class="fa fa-th"></i> Tables</a>
+				
+				<ul>
+					<li><a href="view_branch_table.php">View Tables</a></li>
+					<li><a href="add_branch_table.php">Add Table</a></li>
+					
+				</ul>
+			</li>
+
+			<li class="has-children active">
 				<a href="#0"><i class="fa fa-th"></i> Categories</a>
 				
 				<ul>
 					<li><a href="view_branch_category.php">View Categories</a></li>
 					<li><a href="add_branch_category.php">Add Category</a></li>
+					
+				</ul>
+			</li>
+
+			<li class="has-children active">
+				<a href="#0"><i class="fa fa-th"></i> Menu Types</a>
+				
+				<ul>
+					<li><a href="view_branch_menu_type.php">View Menu Types</a></li>
+					<li><a href="add_branch_menu_type.php">Add Menu Type</a></li>
 					
 				</ul>
 			</li>

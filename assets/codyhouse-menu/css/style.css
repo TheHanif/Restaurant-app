@@ -40,6 +40,14 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
+.add_table{
+
+  margin-left: 25px!important;
+    background: #252D3A!important;
+    color: white!important;
+    margin-bottom: 25px!important;
+    margin-top: 25px!important;
+}
 /* -------------------------------- 
 
 Main Page Content

@@ -19,7 +19,6 @@ class branch_category extends database
 		$data = array();
 
 		$data['branch_category_name']	        = $form['branch_category_name'];
-		$data['branch_category_branch']	        = $form['branch_category_branch'];
 		$data['branch_category_company'] 		= $form['branch_category_company'];
 		$data['branch_category_status'] 		= $form['branch_category_status'];
 		
@@ -42,7 +41,6 @@ class branch_category extends database
 
 		
 		$data['branch_category_name']	        = $form['branch_category_name'];
-		$data['branch_category_branch']	        = $form['branch_category_branch'];
 		$data['branch_category_company'] 		= $form['branch_category_company'];
 		$data['branch_category_status'] 		= $form['branch_category_status'];
 

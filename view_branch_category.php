@@ -25,7 +25,6 @@
 	        <thead>  
 	          <tr>  
 	            <th>Name</th>  
-	            <th>Branch</th>  
 	            <th>Status</th> 
 	            <th></th>  
 	          </tr>  
@@ -36,12 +35,10 @@
 				foreach($results as $res){
 				 if($res->branch_category_company == $_SESSION['company_id']){
 
-			 	//get branch name by id 
-			 	$branch_detail = $branch->get_branches($res->branch_category_branch);
+			 	
 				
 				echo '<tr>';
 				echo '<td>'. $res->branch_category_name .'</td>';
-				echo '<td>'. $branch_detail->branch_name.'</td>';
 				echo '<td>'. $res->branch_category_status .'</td>';
 				echo '<td><a class="edit_btn" href="add_branch_category.php?id='.$res->branch_category_id.'"><i class="fa fa-pencil edit-icon"></i>';
 	            echo '<i class="fa fa-ban hold-icon"></i>';

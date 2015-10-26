@@ -18,6 +18,9 @@
 	$branch = new branch();
 	$all_branch = $branch->get_branches();
 
+	$branch_user_role = new branch_user_role();
+	$all_branch_user_role = $branch_user_role->get_branch_user_role();
+
 	$branch_user = new branch_user();
 
 	
@@ -94,20 +97,24 @@
 		    <label for="branch_user_address" class="col-sm-4 control-label">Permissions/Role</label>
 		    <div class="col-sm-8">
 		      <?php 
-				foreach($branch_user_capabilities as $capability=>$value){
-					?>
-						<?php
-						if(isset($ID)){
-							$user_capabilities = $branch_user_result->branch_user_capabilities;
-							$user_capabilities = (!empty($user_capabilities))? json_decode($user_capabilities) : array();
-						} 
 
-							?>
-							<div class="checkbox">
-							    <label>
-							      <input type="checkbox" name="branch_user_capabilities[]" <?php echo ((isset($ID)) && (!empty($user_capabilities)) && (in_array($capability, $user_capabilities)))? 'checked' : ''; ?>  value="<?php echo $capability; ?>"><?php echo $value; ?>
-							    </label>
-							  </div>
+		      	
+
+				foreach($all_branch_user_role as $value){
+
+					if(isset($ID)){
+
+					$user_capabilities = $branch_user_result->branch_user_capabilities;
+					$user_capabilities = (!empty($user_capabilities))? json_decode($user_capabilities) : array();
+					} 
+					?>
+						
+					<div class="checkbox">
+					    <label>
+					      <input type="checkbox" name="branch_user_capabilities[]" <?php echo ((isset($ID)) && (!empty($user_capabilities)) && (in_array($value->branch_user_role_id, $user_capabilities)))? 'checked' : ''; ?>  value="<?php echo $value->branch_user_role_id; ?>"><?php echo $value->branch_user_role_name; ?>
+					    </label>
+					  </div>
+
 					<?php
 					}
 				?>

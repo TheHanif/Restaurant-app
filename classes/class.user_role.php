@@ -2,25 +2,24 @@
 /**
 * INVENTORY MAIN CLASS
 */
-class branch_spice extends database
+class user_role extends database
 {
 	private $table_name;
 
 	function __construct()
 	{
 		parent::__construct();
-		$this->table_name = 'branch_spices';
+		$this->table_name = 'user_roles';
 		$this->table_branch = 'branches';
 		
 	}
 
-	public function insert_branch_spice($form)
+	public function insert_user_role($form)
 	{
 		$data = array();
 
-		$data['branch_spice_name']	        = $form['branch_spice_name'];
-		$data['branch_spice_company'] 		= $form['branch_spice_company'];
-		$data['branch_spice_status'] 		= $form['branch_spice_status'];
+		$data['user_role_name']	        = $form['user_role_name'];
+	    $data['user_role_status']	    = $form['user_role_status'];
 		
 
 		
@@ -33,20 +32,18 @@ class branch_spice extends database
 
 	} // end of insert
 
-	public function update_branch_spice($form, $id)
+	public function update_user_role($form, $id)
 	{
 		
 		
 		$data = array();
 
 		
-		$data['branch_spice_name']	        = $form['branch_spice_name'];
-		$data['branch_spice_company'] 		= $form['branch_spice_company'];
-		$data['branch_spice_status'] 		= $form['branch_spice_status'];
-
+		$data['user_role_name']	        = $form['user_role_name'];
+	    $data['user_role_status']	    = $form['user_role_status'];
 		
-
-		$this->where('branch_spice_id', $id);
+		
+		$this->where('user_role_id', $id);
 		$this->update($this->table_name, $data);
 
 		if (!$this->row_count()) {
@@ -62,10 +59,10 @@ class branch_spice extends database
 	
 
 
-	public function get_branch_spice($ID = NULL)
+	public function get_user_role($ID = NULL)
 	{
 		if (isset($ID)) {
-			$this->where('branch_spice_id',$ID);
+			$this->where('user_role_id',$ID);
 			$this->from($this->table_name);
 			return $this->result();
 		}
@@ -76,11 +73,11 @@ class branch_spice extends database
 	} // end of get
 
 
-	public function delete_branch_spice($ID)
+	public function delete_user_role($ID)
 	{
 		
 
-		$this->where('branch_spice_id', $ID);
+		$this->where('user_role_id', $ID);
 		$this->delete($this->table_name, $num_rows = NULL);
 		return true;
 

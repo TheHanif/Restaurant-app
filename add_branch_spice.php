@@ -49,19 +49,7 @@
 		 <input type="hidden" class="form-control" name="branch_spice_company" id="branch_spice_company" value="<?php echo (isset($ID))? $branch_spice_result->branch_spice_company : $_SESSION["company_id"] ?>" placeholder="Name" required>
 		 
 
-		 <div class="form-group">
-		    <label for="branch_spice_branch" class="col-sm-4 control-label">Select Branch</label>
-		    <div class="col-sm-8">
-		      	<select class="form-control" name="branch_spice_branch" required>
-					<option value="" selected disabled>Select</option>
-					<?php foreach ($all_branch as $value){ ?>
-					<?php if($value->branch_company_id == $_SESSION['company_id']){?>
-						<option value="<?php echo $value->branch_id; ?>" <?php (isset($ID))? $branch_name = $branch_spice_result->branch_spice_branch : ''; if(isset($ID)){if($value->branch_id == $branch_name){echo 'selected=selected';}}?>><?php echo $value->branch_name; ?></option>
-					<?php } }?>
-				</select>
-		 	</div>
-		 </div>
-
+		
 		 <div class="form-group">
 		    <label for="branch_category_name" class="col-sm-4 control-label">Name</label>
 		    <div class="col-sm-8">

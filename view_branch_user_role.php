@@ -6,28 +6,25 @@
 <?php if(isset($_SESSION['company_id'])){	?>
 	<ul class="breadcrumb">
 	    <li><a href="#">Home</a></li>
-	    <li><a class="active" href="#">Branches Items</a></li>
+	    <li><a class="active" href="#">Branch User Roles</a></li>
 	</ul>
 
 <div class="page-heading">
-	<h1>View Items</h1>
+	<h1>View Categories</h1>
 </div>
 
 	<div class="table-responsive custom-table">
 		<?php 
 				$branch = new branch();
-				$branch_item = new branch_item();
+				$branch_user_role = new branch_user_role();
 
-				$results = $branch_item->get_branch_item();
+				$results = $branch_user_role->get_branch_user_role();
 				
 			?>
 		<table id="myTable">  
 	        <thead>  
 	          <tr>  
 	            <th>Name</th>  
-	            <th>Branch</th>  
-	            <th>Category</th> 
-	            <th>Menu Type</th> 
 	            <th>Status</th> 
 	            <th></th>  
 	          </tr>  
@@ -36,18 +33,14 @@
 
 	        <?php 
 				foreach($results as $res){
-				 if($res->branch_item_company == $_SESSION['company_id']){
+				 if($res->branch_user_role_company == $_SESSION['company_id']){
 
-			 	//get branch name by id 
-			 	$branch_detail = $branch->get_branches($res->branch_item_branch);
+			 	
 				
 				echo '<tr>';
-				echo '<td>'. $res->branch_item_name .'</td>';
-				echo '<td>'. $branch_detail->branch_name.'</td>';
-				echo '<td>'. $res->branch_item_category .'</td>';
-				echo '<td>'. $res->branch_item_menu_type .'</td>';
-				echo '<td>'. $res->item_status .'</td>';
-				echo '<td><a class="edit_btn" href="add_branch_item.php?id='.$res->branch_item_id.'"><i class="fa fa-pencil edit-icon"></i>';
+				echo '<td>'. $res->branch_user_role_name .'</td>';
+				echo '<td>'. $res->branch_user_role_status .'</td>';
+				echo '<td><a class="edit_btn" href="add_branch_user_role.php?id='.$res->branch_user_role_id.'"><i class="fa fa-pencil edit-icon"></i>';
 	            echo '<i class="fa fa-ban hold-icon"></i>';
 	            echo '<i class="fa fa-trash-o delete-icon"></i>';
 	            echo '</td>';

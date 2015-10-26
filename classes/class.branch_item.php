@@ -24,9 +24,17 @@ class branch_item extends database
 		$data['branch_item_small_decs'] 	= $form['branch_item_small_decs'];
 		$data['branch_item_measuring_unit'] = $form['branch_item_measuring_unit'];
 		$data['branch_item_category'] 		= $form['branch_item_category'];
+		$data['branch_item_menu_type']	    = $form['branch_item_menu_type'];
 		$data['branch_item_sale_price'] 	= $form['branch_item_sale_price'];
 		$data['branch_item_cost_price'] 	= $form['branch_item_cost_price'];
+		if(isset($form['branch_item_spice'])){
 		$data['branch_item_spice'] 			= json_encode($form['branch_item_spice']);
+		}else{
+
+		$data['branch_item_spice'] 			= "";
+
+		}
+		
 		$data['branch_item_display_order'] 	= $form['branch_item_display_order'];
 		$data['item_status'] 	            = $form['item_status'];
 		
@@ -63,10 +71,18 @@ class branch_item extends database
 		$data['branch_item_small_decs'] 	= $form['branch_item_small_decs'];
 		$data['branch_item_measuring_unit'] = $form['branch_item_measuring_unit'];
 		$data['branch_item_category'] 		= $form['branch_item_category'];
+		$data['branch_item_menu_type']	    = $form['branch_item_menu_type'];
 		$data['branch_item_sale_price'] 	= $form['branch_item_sale_price'];
 		$data['branch_item_cost_price'] 	= $form['branch_item_cost_price'];
 		$data['branch_item_display_order'] 	= $form['branch_item_display_order'];
+		if(isset($form['branch_item_spice'])){
 		$data['branch_item_spice'] 			= json_encode($form['branch_item_spice']);
+		}else{
+
+		$data['branch_item_spice'] 			= "";
+
+		}
+		
 		$data['item_status'] 	            = $form['item_status'];
 
 		if (!empty($_FILES['branch_item_img']['tmp_name'])){
@@ -77,7 +93,7 @@ class branch_item extends database
 			$data['branch_item_img'] = $uploadfilename;
 		} }
 		else {
-         echo $data['branch_item_img'] = $data['branch_item_img1'];
+          $data['branch_item_img'] = $form['branch_item_img1'];
         }
 
 		$this->where('branch_item_id', $id);
@@ -104,6 +120,9 @@ class branch_item extends database
 			return $this->result();
 		}
 		else {
+
+
+		
 			$this->from($this->table_name);
 			return $this->all_results();
 		}

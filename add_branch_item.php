@@ -21,6 +21,9 @@
 	$branch_category = new branch_category();
 	$all_branch_category = $branch_category->get_branch_category();
 
+	$branch_menu_type = new branch_menu_type();
+	$all_branch_menu_type = $branch_menu_type->get_branch_menu_type();
+
 	$branch_spice = new branch_spice();
 	$all_branch_spice = $branch_spice->get_branch_spice();
 
@@ -48,7 +51,7 @@
 	
 ?>
 
-<form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
+<form class="form-horizontal" action="" method="post" enctype="multipart/form-data" >
 	<div class="col-sm-6">
 
 		
@@ -96,7 +99,20 @@
 					<option value="" selected disabled>Select</option>
 					<?php foreach ($all_branch_category as $value){ ?>
 					<?php if($value->branch_category_company == $_SESSION['company_id']){?>
-						<option value="<?php echo $value->branch_category_id; ?>" <?php (isset($ID))? $branch_name = $branch_item_result->branch_item_category : ''; if(isset($ID)){if($value->branch_category_id == $branch_name){echo 'selected=selected';}}?>><?php echo $value->branch_category_name; ?></option>
+						<option value="<?php echo $value->branch_category_id; ?>" <?php (isset($ID))? $branch_cat = $branch_item_result->branch_item_category : ''; if(isset($ID)){if($value->branch_category_id == $branch_cat){echo 'selected=selected';}}?>><?php echo $value->branch_category_name; ?></option>
+					<?php } }?>
+				</select>
+		    </div>
+		 </div>
+
+		 <div class="form-group">
+		    <label for="branch_item_menu_type" class="col-sm-4 control-label"> Menu Type</label>
+		    <div class="col-sm-8">
+		      <select class="form-control" name="branch_item_menu_type" required>
+					<option value="" selected disabled>Select</option>
+					<?php foreach ($all_branch_menu_type as $value){ ?>
+					<?php if($value->branch_menu_type_company == $_SESSION['company_id']){?>
+						<option value="<?php echo $value->branch_menu_type_id; ?>" <?php (isset($ID))? $branch_menu = $branch_item_result->branch_item_menu_type : ''; if(isset($ID)){if($value->branch_menu_type_id == $branch_menu){echo 'selected=selected';}}?>><?php echo $value->branch_menu_type_name; ?></option>
 					<?php } }?>
 				</select>
 		    </div>
@@ -124,25 +140,27 @@
 		 </div>
 
 		 <div class="form-group">
-		    <label for="branch_item_display_order" class="col-sm-4 control-label"> Display Order</label>
+		    <label for="branch_item_display_order" class="col-sm-4 control-label"> Spices</label>
 		    <div class="col-sm-8">
 		     <?php 
+
 				foreach($all_branch_spice as $value){
+					 //print_f($value);
 					?>
 						<?php
 						if(isset($ID)){
 							$selected_spices = $branch_item_result->branch_item_spice;
 							$selected_spices = (!empty($selected_spices))? json_decode($selected_spices) : array();
-						} 
+						} ?>
 
-							?>
+						<?php if($value->branch_spice_company == $_SESSION['company_id']){?>
 							<div class="checkbox">
 							    <label>
-							      <input type="checkbox" name="branch_item_spice[]" <?php echo ((isset($ID)) && (!empty($selected_spices)) && (in_array($value->branch_spice_id, $selected_spices)))? 'checked' : ''; ?>  value="<?php echo $value->branch_spice_id; ?>"><?php echo $value->branch_spice_name; ?>
+							      <input type="checkbox" name="branch_item_spice[]" <?php echo ((isset($ID)) && (!empty($selected_spices)) && (in_array($value->branch_spice_id, $selected_spices)))? 'checked' : ''; ?>  value="<?php echo $value->branch_spice_id; ?>" ><?php echo $value->branch_spice_name; ?>
 							    </label>
 							  </div>
 					<?php
-					}
+					} }
 				?>
 		   </div>
 		 </div>
@@ -187,7 +205,7 @@
 	          <div class="form-group" id="showNewPicSubmit" style="display:none;">
 				<label for="movie_synopsis" class="col-sm-2 control-label">Image: </label>
 				<div class="col-sm-10">
-					 <input type="file" name="branch_item_img" class="form-control" style="width:100%;height: 33px;" required>
+					 <input type="file" name="branch_item_img" class="form-control" style="width:100%;height: 33px;" >
 				</div>
 			 </div>
 			<?php
@@ -197,7 +215,7 @@
 				<label for="movie_synopsis" class="col-sm-2 control-label">Image: </label>
 				<div class="col-sm-10">
 					 <input type="hidden" class="form-control" name="branch_item_img" id="photo" readonly>
-					 <input type="file" name="branch_item_img" class="form-control" style="width:100%;height: 33px;" required>
+					 <input type="file" name="branch_item_img" class="form-control" style="width:100%;height: 33px;" >
 				</div>
 			 </div>
 	         <?php
@@ -207,7 +225,7 @@
 				<label for="movie_synopsis" class="col-sm-2 control-label">Image: </label>
 				<div class="col-sm-10">
 					 <input type="hidden" class="form-control" name="branch_item_img" id="photo" readonly>
-					 <input type="file" name="branch_item_img" class="form-control" style="width:100%;height: 33px;" required>
+					 <input type="file" name="branch_item_img" class="form-control" style="width:100%;height: 33px;" >
 				</div>
 			 </div>
 	        <?php

@@ -24,7 +24,12 @@ class branch_user extends database
 		$data['branch_user_email'] 				= $form['branch_user_email'];
 		$data['branch_user_phone'] 				= $form['branch_user_phone'];
 		$data['branch_user_address'] 			= $form['branch_user_address'];
+		if(isset($form['branch_user_capabilities'])){
 		$data['branch_user_capabilities'] 		= json_encode($form['branch_user_capabilities']);
+		}else{
+			$data['branch_user_capabilities'] ="";
+		}
+		
 		$data['branch_user_status'] 			= $form['branch_user_status'];
 
 		
@@ -50,7 +55,11 @@ class branch_user extends database
 		$data['branch_user_email'] 				= $form['branch_user_email'];
 		$data['branch_user_phone'] 				= $form['branch_user_phone'];
 		$data['branch_user_address'] 			= $form['branch_user_address'];
+		if(isset($form['branch_user_capabilities'])){
 		$data['branch_user_capabilities'] 		= json_encode($form['branch_user_capabilities']);
+		}else{
+			$data['branch_user_capabilities'] ="";
+		}
 		$data['branch_user_status'] 			= $form['branch_user_status'];
 
 		
